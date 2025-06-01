@@ -1,0 +1,23 @@
+.sign-in-or-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--grey);
+
+  .log-in,
+  .sign-up {
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        height: 30px;
+        font-size: 18px;
+      }
+    }
+  }
+}
