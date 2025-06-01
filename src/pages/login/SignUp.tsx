@@ -1,6 +1,6 @@
 export default function SignUp() {
   return (
-    <div className='signup'>
+    <div className='sign-up'>
       <h2>New User Registration</h2>
       <form>
         <input type='text' placeholder='Full Name' name='fullName' required autoComplete='name' />
